@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles scientifiques</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .articles-container {
+            width: 90%;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .article-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .article-card:hover {
+            transform: scale(1.02);
+        }
+        .article-card h3 {
+            color: #1a3c8d;
+            margin-bottom: 0.5rem;
+        }
+        .article-card p {
+            color: #444;
+            font-size: 0.95rem;
+        }
+        .article-card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #1a3c8d;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Articles scientifiques</h1>
+    </header>
+
+    <div class="articles-container">
+        <div class="article-card">
+            <h3>Relativité générale expliquée</h3>
+            <p>Un article sur la théorie d'Albert Einstein et ses implications modernes.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Marie Curie et la radioactivité</h3>
+            <p>Analyse des travaux de Marie Curie et de leur impact sur la médecine et la science.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+
+        <div class="article-card">
+            <h3>Les surfaces de Riemann selon Mirzakhani</h3>
+            <p>Découverte de la géométrie hyperbolique et des contributions de Mariam Mirzakhani.</p>
+            <a href="#">Lire l'article</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 - Histoire de la Science
+    </footer>
+</body>
+</html>
