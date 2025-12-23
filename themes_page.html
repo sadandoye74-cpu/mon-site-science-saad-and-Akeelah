@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thèmes des auteurs scientifiques</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .themes-container {
+            width: 90%;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .theme-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .theme-card:hover {
+            transform: scale(1.03);
+        }
+        .theme-card h3 {
+            color: #1a3c8d;
+            margin-bottom: 0.5rem;
+        }
+        .theme-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .theme-card ul li {
+            margin: 0.3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thèmes des auteurs scientifiques</h1>
+    </header>
+
+    <div class="themes-container">
+        <div class="theme-card">
+            <h3>Physique</h3>
+            <ul>
+                <li><a href="einstein.html">Albert Einstein</a></li>
+                <li><a href="newton.html">Isaac Newton</a></li>
+                <li><a href="curie.html">Marie Curie</a></li>
+            </ul>
+        </div>
+
+        <div class="theme-card">
+            <h3>Mathématiques</h3>
+            <ul>
+                <li><a href="mirzakhani.html">Mariam Mirzakhani</a></li>
+                <li><a href="newton.html">Isaac Newton</a></li>
+            </ul>
+        </div>
+
+        <div class="theme-card">
+            <h3>Chimie</h3>
+            <ul>
+                <li><a href="curie.html">Marie Curie</a></li>
+            </ul>
+        </div>
+
+        <div class="theme-card">
+            <h3>Astronomie</h3>
+            <ul>
+                <li><a href="newton.html">Isaac Newton</a></li>
+                <li><a href="einstein.html">Albert Einstein</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 - Histoire de la Science
+    </footer>
+</body>
+</html>
