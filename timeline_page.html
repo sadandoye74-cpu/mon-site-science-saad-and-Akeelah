@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ligne du temps des auteurs scientifiques</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        .timeline {
+            width: 90%;
+            margin: 2rem auto;
+            position: relative;
+            padding: 2rem 0;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            width: 4px;
+            background: #1a3c8d;
+            top: 0;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+        .entry {
+            padding: 1rem 2rem;
+            position: relative;
+            width: 50%;
+        }
+        .entry.left {
+            left: 0;
+        }
+        .entry.right {
+            left: 50%;
+        }
+        .entry::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #1a3c8d;
+            border-radius: 50%;
+            top: 1rem;
+            transform: translateX(-50%);
+        }
+        .entry.left::before {
+            right: -10px;
+        }
+        .entry.right::before {
+            left: -10px;
+        }
+        .entry h3 {
+            color: #1a3c8d;
+        }
+        .entry p {
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ligne du temps des auteurs scientifiques</h1>
+    </header>
+
+    <div class="timeline">
+        <div class="entry left">
+            <h3>Isaac Newton (1643-1727)</h3>
+            <p>Lois du mouvement et gravitation universelle.</p>
+        </div>
+        <div class="entry right">
+            <h3>Marie Curie (1867-1934)</h3>
+            <p>Travaux sur la radioactivité, Prix Nobel en Physique et Chimie.</p>
+        </div>
+        <div class="entry left">
+            <h3>Albert Einstein (1879-1955)</h3>
+            <p>Théorie de la relativité restreinte et générale.</p>
+        </div>
+        <div class="entry right">
+            <h3>Mariam Mirzakhani (1977-2017)</h3>
+            <p>Travaux sur la géométrie des surfaces de Riemann et Médaille Fields.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 - Histoire de la Science
+    </footer>
+</body>
+</html>
