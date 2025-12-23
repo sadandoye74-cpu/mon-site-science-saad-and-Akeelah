@@ -1,0 +1,17 @@
+[
+  {
+    "nom": "Albert Einstein",
+    "domaine": "Physique",
+    "description": "Physicien théoricien, auteur de la relativité."
+  },
+  {
+    "nom": "Marie Curie",
+    "domaine": "Chimie & Physique",
+    "description": "Première femme à recevoir un prix Nobel."
+  },
+  {
+    "nom": "Mariam Mirzakhani",
+    "domaine": "Mathématiques",
+    "description": "Première femme à recevoir la Médaille Fields."
+  }
+]
