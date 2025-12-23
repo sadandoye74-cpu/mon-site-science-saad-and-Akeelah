@@ -1,0 +1,38 @@
+[
+  {
+    "nom": "Albert Einstein",
+    "naissance": "1879",
+    "mort": "1955",
+    "discipline": "Physique",
+    "photo": "img/auteurs/einstein.jpg",
+    "resume": "Créateur de la théorie de la relativité.",
+    "page": "einstein.html"
+  },
+  {
+    "nom": "Marie Curie",
+    "naissance": "1867",
+    "mort": "1934",
+    "discipline": "Physique, Chimie",
+    "photo": "img/auteurs/curie.jpg",
+    "resume": "Travaux sur la radioactivité. Double prix Nobel.",
+    "page": "curie.html"
+  },
+  {
+    "nom": "Isaac Newton",
+    "naissance": "1643",
+    "mort": "1727",
+    "discipline": "Physique, Mathématiques",
+    "photo": "img/auteurs/newton.jpg",
+    "resume": "Lois du mouvement, gravitation universelle.",
+    "page": "newton.html"
+  },
+  {
+    "nom": "Mariam Mirzakhani",
+    "naissance": "1977",
+    "mort": "2017",
+    "discipline": "Mathématiques",
+    "photo": "img/auteurs/mirzakhani.jpg",
+    "resume": "Travaux sur la géométrie hyperbolique.",
+    "page": "mirzakhani.html"
+  }
+]
