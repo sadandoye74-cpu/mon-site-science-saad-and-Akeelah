@@ -1,0 +1,24 @@
+mon-site-science/
+│
+├── index.html                 → Page d’accueil
+├── auteurs.html               → Liste des auteurs
+├── einstein.html              → Page individuelle
+├── curie.html                 → Page individuelle
+├── newton.html                → Page individuelle
+├── mirzakhani.html            → Page individuelle
+├── timeline.html              → Ligne du temps
+├── themes.html                → Thèmes / disciplines
+├── articles.html              → Articles / Blog
+│
+├── css/
+│   └── style.css              → Styles globaux
+│
+├── js/
+│   └── script.js              → Scripts (optionnel)
+│
+├── img/
+│   ├── auteurs/               → Photos des auteurs
+│   └── layout/                → Images de mise en page
+│
+└── data/
+    └── auteurs.json           → Données des auteurs
