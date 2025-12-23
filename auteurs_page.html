@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste des auteurs scientifiques</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+        }
+        header {
+            background: #1a3c8d;
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            width: 90%;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .card h3 {
+            color: #1a3c8d;
+        }
+        .card p {
+            color: #444;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: #1a3c8d;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Auteurs scientifiques célèbres</h1>
+        <p>Découvrez les grands noms de la science</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="img/auteurs/einstein.jpg" alt="Albert Einstein" />
+            <h3>Albert Einstein</h3>
+            <p>Physique — Relativité</p>
+            <a href="einstein.html">Voir plus</a>
+        </div>
+
+        <div class="card">
+            <img src="img/auteurs/curie.jpg" alt="Marie Curie" />
+            <h3>Marie Curie</h3>
+            <p>Physique & Chimie — Radioactivité</p>
+            <a href="curie.html">Voir plus</a>
+        </div>
+
+        <div class="card">
+            <img src="img/auteurs/newton.jpg" alt="Isaac Newton" />
+            <h3>Isaac Newton</h3>
+            <p>Physique — Lois du mouvement</p>
+            <a href="newton.html">Voir plus</a>
+        </div>
+
+        <div class="card">
+            <img src="img/auteurs/mirzakhani.jpg" alt="Mariam Mirzakhani" />
+            <h3>Mariam Mirzakhani</h3>
+            <p>Mathématiques — Géométrie hyperbolique</p>
+            <a href="mirzakhani.html">Voir plus</a>
+        </div>
+    </div>
+</body>
+</html>
